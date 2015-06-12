@@ -1,7 +1,7 @@
 from warnings import warn
 import numpy as np
 from matplotlib.patches import Polygon
-from tools import axes_helper
+from .tools import axes_helper
 
 def log_hist(x, bins=20, axes=None, histtype="step", **hist_args):
     """Make a histogram with log-spaced binning.

@@ -64,7 +64,7 @@ def zmatshow(A, msgfunc=None, ax=None, **kwargs):
     aimg = ax.matshow(A, **kwargs)
 
     if msgfunc is None:
-        print "Setting default toolbar message"
+        print("Setting default toolbar message")
         msgfunc = mk_mat_toolbar_message(A)
     install_toolbar_message(aimg.figure.canvas, msgfunc)
     return aimg

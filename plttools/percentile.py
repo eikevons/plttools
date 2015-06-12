@@ -1,5 +1,5 @@
-from tools import axes_helper, kw_helper, repeat_dictentries
 import numpy as np
+from .tools import axes_helper, kw_helper, repeat_dictentries
 
 def percentile_plot(x, y, q=None, axes=None, labels=False, label_props=None, label_pos='plot', **line_kwargs):
     """Plot percentile lines for data `y`.
